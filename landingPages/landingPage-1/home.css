@@ -15,7 +15,7 @@ body, html{
 
 .header{
     display: flex;
-    margin: 0 50px;
+    margin: 0 100px;
     justify-content: space-between
 }
 .header h2{
@@ -26,7 +26,7 @@ body, html{
 ul{
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 ul a, .header-hero p{
     font-size: 16px;
@@ -37,7 +37,7 @@ ul a, .header-hero p{
 .header-body{
     display: flex;
     justify-content: space-between;
-    margin: 100px 50px;
+    margin: 100px 100px;
     gap: 20px
 }
 .header-hero h2{
@@ -64,4 +64,52 @@ ul a, .header-hero p{
     font-weight: bold;
     border-radius: 5px;
 }
+.hero-section h2{
+    font-family: inherit;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
 
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 100px;
+    gap: 50px;
+}
+
+.card{
+    max-width: 150px;
+}
+.card .frame{
+    margin: auto;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+.card .description{
+    text-align: center;
+}
+.footer-section{
+    text-align: center;
+    padding: 20px;
+}
+
+.quote-section{
+    background-color: #e5e7eb;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0 50px;
+    padding:  25px 50px;
+}
+.caption{
+    text-align: right;
+    font-size: 24px;
+    font-family: inherit;
+    margin: 0 50px;
+    padding: 0 50px 25px;
+}

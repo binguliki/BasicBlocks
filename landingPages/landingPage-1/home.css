@@ -5,6 +5,7 @@ body, html{
     padding: 0;
 }
 
+/* Header section */
 .header-section, .footer-section{
     background-color: #1f2937;
     color: #f9faf8;
@@ -12,7 +13,6 @@ body, html{
     font-family: Roboto;
     flex-direction: column;
 }
-
 .header{
     display: flex;
     margin: 0 100px;
@@ -33,7 +33,6 @@ ul a, .header-hero p{
     color: #e5e7e8bc;
     text-decoration: none;
 }
-
 .header-body{
     display: flex;
     justify-content: space-between;
@@ -54,7 +53,6 @@ ul a, .header-hero p{
     align-content: center;
     background-color: #e5e7e88b;
 }
-
 .header-section button{
     background-color: #3882f6;
     margin-top: 16px;
@@ -64,6 +62,8 @@ ul a, .header-hero p{
     font-weight: bold;
     border-radius: 5px;
 }
+
+/* Information section or Hero section */
 .hero-section h2{
     font-family: inherit;
     font-size: 36px;
@@ -71,14 +71,12 @@ ul a, .header-hero p{
     color: #1f2937;
     text-align: center;
 }
-
 .container{
     display: flex;
     justify-content: center;
     margin: 20px 100px;
     gap: 50px;
 }
-
 .card{
     max-width: 150px;
 }
@@ -91,11 +89,14 @@ ul a, .header-hero p{
 .card .description{
     text-align: center;
 }
+
+/* Footer section */
 .footer-section{
     text-align: center;
     padding: 20px;
 }
 
+/* Quote section */
 .quote-section{
     background-color: #e5e7eb;
 }
@@ -112,4 +113,32 @@ ul a, .header-hero p{
     font-family: inherit;
     margin: 0 50px;
     padding: 0 50px 25px;
+}
+
+/* Action section */
+.action-section .container{
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+}
+.container .content{
+    font-family: Roboto;
+    margin: 20px;
+}
+.container .content p{
+    margin-top: 0px;
+}
+.container .content h2{
+    margin-bottom: 0px;
+}
+.action-section button{
+    padding: 8px 32px;
+    color: #f9faf8;
+    margin: 20px;
+    background-color: transparent;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
 }
